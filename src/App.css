@@ -14,14 +14,41 @@ body {
 }
 
 header {
-  font-size: 2em;
+  font-family: Courier New , Courier , monospace;
+  font-size: 3em;
   height: 300px;
   text-align: center;
-  transform: translateY(40%);
+  text-decoration: overline;
+  transform: translateY(30%);
 }
 
 img {
   height: 100%;
+}
+
+section h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section div div {
+  align-items: center;
+  background: #121212;
+  border: 2px solid white;
+  border-radius: 65px;
+  box-shadow: inset 10px 10px 25px #090909 , inset -10px -10px 25px #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 7px;
+  text-align: center;
+  text-decoration: double;
 }
 
 .planet {
@@ -40,26 +67,13 @@ img {
   width: 100%;
 }
 
-section h2 {
-  font-size: 3em;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-section div div {
-  align-items: center;
-  background: #121212;
-  border: 2px solid white;
-  border-radius: 15px;
-  box-shadow: inset 10px 10px 25px #090909 , inset -10px -10px 25px #1b1b1b;
+.mission {
+  background: none;
+  border: none;
+  box-shadow: none;
   display: flex;
-  font-size: 1.3em;
-  height: 100px;
+  flex-direction: row;
+  font-size: 1.6em;
   justify-content: space-between;
-  margin-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center;
+  width: 80%;
 }
