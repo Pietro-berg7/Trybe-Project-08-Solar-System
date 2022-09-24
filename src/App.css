@@ -1,3 +1,65 @@
 .App {
   text-align: center;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Trebuchet MS , Lucida Sans Unicode , Arial , sans-serif;
+}
+
+header {
+  font-size: 2em;
+  height: 300px;
+  text-align: center;
+  transform: translateY(40%);
+}
+
+img {
+  height: 100%;
+}
+
+.planet {
+  font-size: 2em;
+  margin-bottom: 70px;
+  text-align: center;
+  transform: translateY(-10%);
+}
+
+.planets {
+  display: flex;
+  font-size: 0.6em;
+  height: 120px;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+}
+
+section h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section div div {
+  align-items: center;
+  background: #121212;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: inset 10px 10px 25px #090909 , inset -10px -10px 25px #1b1b1b;
+  display: flex;
+  font-size: 1.3em;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
